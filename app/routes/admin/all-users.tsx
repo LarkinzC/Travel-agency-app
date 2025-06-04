@@ -1,9 +1,9 @@
 import React from 'react'
 
-const all-users = () => {
+const AllUsers = () => {
   return (
-    <div>all-users</div>
+    <div>Users Table</div>
   )
 }
 
-export default all-users
+export default AllUsers
