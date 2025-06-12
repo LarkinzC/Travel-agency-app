@@ -1,8 +1,11 @@
 import React from 'react'
+import { Link } from 'react-router'
 
 const NavItems = () => {
   return (
-    <div>NavItems</div>
+    <section className='nav-items'>
+      <Link to='/' className='link-logo'/>
+    </section>
   )
 }
 
