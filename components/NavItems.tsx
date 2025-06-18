@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router'
+import { Link, NavLink } from 'react-router'
 import { sidebarItems } from '~/constants'
 
 const NavItems = () => {
@@ -12,7 +12,9 @@ const NavItems = () => {
       <div className='container'>
         <nav>
             {sidebarItems.map(({ id, href, icon, label}) => (
-              <div>{label}</div>
+              <NavLink to={href} key={id}>
+
+                </NavLink>
             ))}
         </nav>
       </div>
