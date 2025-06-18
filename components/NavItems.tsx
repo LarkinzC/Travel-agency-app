@@ -7,7 +7,7 @@ const NavItems = () => {
   const user = {
     name: 'Larkin',
     email: 'Larkincampbell24@gmail.com',
-    imageUrl: '/assets/image/david.webp'
+    imageUrl: '/assets/images/david.webp'
   }
 
   return (
@@ -36,7 +36,7 @@ const NavItems = () => {
             ))}
         </nav>
         <footer className='nav-footer'>
-            <img src={user?.imageUrl || '/assets/image/david.webp'} alt={user?.name || 'David'} />
+            <img src={user?.imageUrl || 'assets/images/david.webp'} alt={user?.name || 'David'} />
         </footer>
       </div>
     </section>
