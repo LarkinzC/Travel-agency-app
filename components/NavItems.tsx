@@ -41,6 +41,14 @@ const NavItems = () => {
               <h2>{user?.name}</h2>
               <p>{user.email}</p>
             </article>
+            <button
+              onClick={()=> {
+                console.log('logout')
+              }}
+              className='cursor-pointer'
+            >
+              <img src='/assets/icons/logout.svg' alt='logout' className='sizw-6'/>
+            </button>
         </footer>
       </div>
     </section>
