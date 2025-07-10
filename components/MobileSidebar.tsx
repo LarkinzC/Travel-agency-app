@@ -31,7 +31,7 @@ const MobileSidebar = () => {
         showBackdrop={true}
         type="over"
         />
-        <NavItems />
+        <NavItems handleClick={toggleSidebar}/>
         </div>
   )
 }
