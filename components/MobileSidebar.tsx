@@ -1,4 +1,4 @@
-import type { SidebarComponent } from "@syncfusion/ej2-react-navigations"
+import { Sidebar, SidebarComponent } from "@syncfusion/ej2-react-navigations"
 import { Link } from "react-router"
 
 const MobileSidebar = () => {
@@ -16,6 +16,7 @@ const MobileSidebar = () => {
               <img src="/assets/icons/menu.svg" alt="menu" className="size-7" />
             </button>
         </header>
+        <SidebarComponent width={270} ref={(Sidebar) => Sidebar = sidebar}/>
         </div>
   )
 }
