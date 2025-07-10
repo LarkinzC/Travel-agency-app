@@ -11,7 +11,10 @@ const MobileSidebar = () => {
                 <img src="/assets/icons/logo.svg" alt="Logo" className="size-[30px]" />
                 <h1>Tourvisto</h1>
             </Link>
-            <button onClick={() => sidebar.toggle}></button>
+            {/*//@ts-ignore*/}
+            <button onClick={() => sidebar.toggle}>
+              <img src="/assets/icons/menu.svg" alt="menu" className="size-7" />
+            </button>
         </header>
         </div>
   )
